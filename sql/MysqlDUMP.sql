@@ -494,22 +494,22 @@ CREATE TABLE IF NOT EXISTS `tbl_region` (
 -- Dumping data for table `tbl_region`
 --
 
-INSERT INTO `tbl_region` (`id`, `nombre`, `ISO_3166_2_CL`) VALUES
-(1, 'Tarapacá', 'CL-TA'),
-(2, 'Antofagasta', 'CL-AN'),
-(3, 'Atacama', 'CL-AT'),
-(4, 'Coquimbo', 'CL-CO'),
-(5, 'Valparaíso', 'CL-VS'),
-(6, 'Región del Libertador Gral. Bernardo O’Higgins', 'CL-LI'),
-(7, 'Región del Maule', 'CL-ML'),
-(8, 'Región del Biobío', 'CL-BI'),
-(9, 'Región de la Araucanía', 'CL-AR'),
-(10, 'Región de Los Lagos', 'CL-LL'),
-(11, 'Región Aisén del Gral. Carlos Ibáñez del Campo', 'CL-AI'),
-(12, 'Región de Magallanes y de la Antártica Chilena', 'CL-MA'),
-(13, 'Región Metropolitana de Santiago', 'CL-RM'),
-(14, 'Región de Los Ríos', 'CL-LR'),
-(15, 'Arica y Parinacota', 'CL-AP');
+INSERT INTO `tbl_region` (`id`, `nombre`, `nombre_corto`, `ISO_3166_2_CL`) VALUES
+(1, 'Región de Tarapacá', 'Tarapacá', 'CL-TA'),
+(2, 'Región de Antofagasta', 'Antofagasta', 'CL-AN'),
+(3, 'Región de Atacama', 'Atacama', 'CL-AT'),
+(4, 'Región de Coquimbo', 'Coquimbo', 'CL-CO'),
+(5, 'Región de Valparaíso', 'Valparaíso', 'CL-VS'),
+(6, 'Región del Libertador Gral. Bernardo O’Higgins', 'Libertador Gral. Bernardo O’Higgins', 'CL-LI'),
+(7, 'Región del Maule', 'Maule', 'CL-ML'),
+(8, 'Región del Biobío', 'Biobío', 'CL-BI'),
+(9, 'Región de la Araucanía', 'La Araucanía', 'CL-AR'),
+(10, 'Región de Los Lagos', 'Los Lagos', 'CL-LL'),
+(11, 'Región de Aisén del Gral. Carlos Ibáñez del Campo', 'Aisén del Gral. Carlos Ibáñez del Campo', 'CL-AI'),
+(12, 'Región de Magallanes y de la Antártica Chilena', 'Magallanes y de la Antártica Chilena', 'CL-MA'),
+(13, 'Región Metropolitana de Santiago', 'Metropolitana de Santiago', 'CL-RM'),
+(14, 'Región de Los Ríos', 'Los Ríos', 'CL-LR'),
+(15, 'Región de Arica y Parinacota', 'Arica y Parinacota', 'CL-AP');
 
 --
 -- Constraints for dumped tables
