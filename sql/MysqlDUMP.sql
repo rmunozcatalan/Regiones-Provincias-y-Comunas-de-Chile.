@@ -485,6 +485,7 @@ INSERT INTO `tbl_provincia` (`id`, `nombre`, `idRegion`) VALUES
 DROP TABLE IF EXISTS `tbl_region`;
 CREATE TABLE IF NOT EXISTS `tbl_region` (
   `id` int(2) NOT NULL DEFAULT '0',
+  `nombre_corto` varchar(50) DEFAULT NULL,
   `nombre` varchar(50) DEFAULT NULL,
   `ISO_3166_2_CL` varchar(5) DEFAULT NULL,
   PRIMARY KEY (`id`)
